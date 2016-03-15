@@ -1,0 +1,104 @@
+h1 {
+  margin: 15px 0px 30px 20px;
+  font-size: 60px;
+}
+
+/*header*/
+
+ul.menu {
+ margin: 0px 0px 0px 20px;
+ list-style: none;
+ width: 880px;
+ padding: 11px;
+ background: #575757;
+}
+
+ul.menu li {
+ display: inline
+}
+
+ul.menu li a {
+ color: white;
+ text-decoration: none;
+ background: #4f4f4f;
+ margin: 0;
+ padding: 10px 30px 10px 14px;
+}
+
+ul.menu li a:hover {
+ border-left: 1px solid grey;
+ border-right: 1px solid grey;
+ background: #383838;
+}
+
+ul.menu li a.selected {
+  color: #fefefe;
+  border: 1px #cc0000 solid;
+  border-bottom: 1px;
+  padding: 10px 14px 10px 14px;
+}
+
+/*left side*/
+
+ul.left {
+  margin: 30px 0px -5px 20px;
+  padding: 0;
+  list-style-type: none;
+  width: 180px;
+  height: 0px
+}
+
+ul.left a {
+  display: block;
+  margin-bottom: -1px;
+  padding: 12px 14px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid grey;
+}
+
+ul.left a:hover {
+  background: #f9f9f9;
+  padding: 8px 8px 8px 40px;
+}
+
+/*content*/
+
+.image {
+  margin: 0px 0px 0px 240px;
+}
+p {
+  width: 630px;
+  margin: 20px 0px 0px 280px;
+  color: #3b3b3b;
+  font-size: 15px;
+}
+
+/*footer*/
+ul.footer {
+ margin: 70px 0px 0px 20px;
+ list-style: none;
+ width: 880px;
+ padding: 3px;
+ background: #e1e1e1;
+}
+
+ul.footer li {
+ display: inline
+}
+
+ul.footer li a {
+ color: black;
+ text-decoration: none;
+ margin: 0;
+ padding: 10px 50px 10px 20px;
+ font-size: 12px;
+}
+
+ul.footer li a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  margin: 0px 0px 0px 190px;
+}
