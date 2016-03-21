@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
 h1 {
     margin: 15px 0 30px 20px;
     font-size: 60px;
@@ -8,13 +19,14 @@ h1 {
 .menu {
     width: 880px;
     margin: 0 0 0 20px;
-    padding: 11px;
+    padding: 0;
     background: #575757;
+    line-height: 40px;
     list-style: none;
 }
 
 .menu li {
-    display: inline;
+    display: inline-block;
 }
 
 .menu li a {
@@ -25,6 +37,8 @@ h1 {
 }
 
 .menu li a:hover {
+    margin: 0;
+    padding: 10px 29px 10px 13px;
     border-right: 1px solid #808080;
     border-left: 1px solid #808080;
     background: #383838;
@@ -55,7 +69,8 @@ h1 {
 }
 
 .left a:hover {
-    padding: 8px 8px 8px 40px;
+    display: block;
+    padding: 12px 12px 12px 30px;
     background: #f9f9f9;
 }
 
